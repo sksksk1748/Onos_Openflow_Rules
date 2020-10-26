@@ -46,7 +46,7 @@ onos-2.4.0
 * Ping 成功的畫面
 ![](https://i.imgur.com/OkdWbkd.png)
 * ONOS GUI中的topology
-![](https://i.imgur.com/78x2zmA.png)
+![](https://i.imgur.com/gsuNxmx.png)
 
 ## Reference
 
