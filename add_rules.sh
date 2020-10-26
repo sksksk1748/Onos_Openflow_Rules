@@ -1,0 +1,9 @@
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000001 -d @./test1.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000001 -d @./test1r.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000002 -d @./test2.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000002 -d @./test2r.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000001 -d @./test1arp.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000002 -d @./test2arp.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000003 -d @./test3.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000003 -d @./test3r.json --user onos:rocks
+curl -X POST -H "content-type:application/json" http://140.118.155.118:8181/onos/v1/flows/of:0000000000000003 -d @./test3arp.json --user onos:rocks
